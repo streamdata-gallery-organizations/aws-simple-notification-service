@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=OptInPhoneNumber&k=1:
+  /?Action=OptInPhoneNumber:
     get:
       summary: ' Opt In Phone Number '
       description: Use this request to opt in a phone number that is opted out, which
