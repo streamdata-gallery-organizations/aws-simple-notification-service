@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetSubscriptionAttributes&k=1:
+  /?Action=GetSubscriptionAttributes:
     get:
       summary: ' Get Subscription Attributes '
       description: Returns all of the properties of a subscription
