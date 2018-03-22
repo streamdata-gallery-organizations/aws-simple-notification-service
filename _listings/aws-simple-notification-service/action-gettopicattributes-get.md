@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetTopicAttributes&k=1:
+  /?Action=GetTopicAttributes:
     get:
       summary: ' Get Topic Attributes '
       description: Returns all of the properties of a topic
