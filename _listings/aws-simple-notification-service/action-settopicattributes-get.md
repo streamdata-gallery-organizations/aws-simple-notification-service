@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetTopicAttributes&k=1:
+  /?Action=SetTopicAttributes:
     get:
       summary: ' Set Topic Attributes '
       description: Allows a topic owner to set an attribute of the topic to a new
