@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=Publish&k=1:
+  /?Action=Publish:
     get:
       summary: ' Publish '
       description: Sends a message to all of a topic's subscribed endpoints
