@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=Unsubscribe&k=1:
+  /?Action=Unsubscribe:
     get:
       summary: ' Unsubscribe '
       description: Deletes a subscription
