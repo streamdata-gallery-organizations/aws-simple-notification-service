@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListSubscriptionsByTopic&k=1:
+  /?Action=ListSubscriptionsByTopic:
     get:
       summary: ' List Subscriptions By Topic '
       description: Returns a list of the subscriptions to a specific topic
