@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteTopic&k=1:
+  /?Action=DeleteTopic:
     get:
       summary: ' Delete Topic '
       description: Deletes a topic and all its subscriptions
