@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListPhoneNumbersOptedOut&k=1:
+  /?Action=ListPhoneNumbersOptedOut:
     get:
       summary: ' List Phone Numbers Opted Out '
       description: Returns a list of phone numbers that are opted out, meaning you
