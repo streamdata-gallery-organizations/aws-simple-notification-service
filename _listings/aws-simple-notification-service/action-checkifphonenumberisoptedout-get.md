@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CheckIfPhoneNumberIsOptedOut&k=1:
+  /?Action=CheckIfPhoneNumberIsOptedOut:
     get:
       summary: ' Check If Phone Number Is Opted Out '
       description: Accepts a phone number and indicates whether the phone holder has
