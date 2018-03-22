@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetSubscriptionAttributes&k=1:
+  /?Action=SetSubscriptionAttributes:
     get:
       summary: ' Set Subscription Attributes '
       description: Allows a subscription owner to set an attribute of the topic to
