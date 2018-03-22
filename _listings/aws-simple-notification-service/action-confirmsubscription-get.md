@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ConfirmSubscription&k=1:
+  /?Action=ConfirmSubscription:
     get:
       summary: ' Confirm Subscription '
       description: |-
