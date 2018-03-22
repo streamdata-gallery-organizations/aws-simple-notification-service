@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListTopics&k=1:
+  /?Action=ListTopics:
     get:
       summary: ' List Topics '
       description: Returns a list of the requester's topics
