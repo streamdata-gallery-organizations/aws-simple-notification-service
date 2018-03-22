@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateTopic&k=1:
+  /?Action=CreateTopic:
     get:
       summary: ' Create Topic '
       description: Creates a topic to which notifications can be published
